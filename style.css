@@ -1,0 +1,176 @@
+body{
+    margin: 0%;
+}
+
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-height: 8rem;
+  background-color: black;
+}
+
+.header img{
+    width: 70px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    width: 100%;
+    max-height: 5rem;
+    background-color: black;
+
+}
+.nav a {
+    text-decoration: none;
+    color:  rgb(178 141 47 / 75%);
+    font-size: 1.9rem;
+    font-weight: 4rem;
+}
+
+.homepage_main{
+    background-color: black;
+}
+.homepage_main_img{
+    width: 100%;
+    opacity: 0.3;
+}
+
+.mainpage_text_section{
+    position: absolute;
+    text-align:center;
+    left: 0;
+    top: 13rem;
+    width: 100%;
+    height: 50rem;
+  
+}
+.mainpage_text_section img{
+    width: 350px;
+}
+
+.mainpage_text_section h3{    
+    color: #aaa393;
+    font-size: 0.7rem;
+    
+}
+.mainpage_text_section button{
+    background-color: rgb(178 141 47 / 75%) ;
+    font-weight: 600;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 7%;
+    border:none;
+    margin-top: 3rem;
+}
+.mainpage_text_section button a{
+    text-decoration: none;
+    color: #aaa393;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    width: 100%;
+    background-color: black;
+}
+.footer li{
+    color: rgb(178 141 47 / 75%);
+    font-weight: bold;
+    display: inline-block;
+    padding: 2rem;
+}
+
+.menupage_main_container{
+    width: 100%;
+    min-height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    padding: 4rem;
+}
+
+.menupage_grid_container{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    max-width: 80rem;
+    height: 50rem;
+}
+
+.starters_menu_container{
+    grid-row: 1/2;
+    grid-column: 2/5;
+}
+.starters_menu_container li{
+    font-weight: bold;
+    color: rgb(178 141 47 / 75%);
+    list-style: none;
+}
+
+.maincourse_menu_container{
+    grid-row: 2/2;
+    grid-column: 6/9;
+}
+.maincourse_menu_container li {
+    font-weight: bold;
+    color: rgb(178 141 47 / 75%);
+    list-style: none;
+}
+.dessert_menu_container{
+    grid-row: 3/4;
+    grid-column: 2/5
+    
+}
+.dessert_menu_container li {
+    font-weight: bold;
+    color: rgb(178 141 47 / 75%);
+    list-style: none;
+}
+
+.menu_page_h3_label {
+    font-size: 1.6rem;
+    color: rgb(178 141 47 / 75%);
+    list-style: none;
+}
+
+.menu_page_hr_line{
+ border: 1px solid;
+ border-color:rgb(178 141 47 / 75%);
+}
+
+.menu_page_paragraf{
+    color: #aaa393;
+}
+
+.contact_page_main{
+    width: 100%;
+    height: 30rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.form_section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    align-items: center;
+    gap: 1.0rem;
+    border-radius: 2%;
+   background-color:rgb(178 141 47 / 75%);
+}
+
+.formbtn{
+    padding: 0.7rem;
+    width: 6rem;
+    border:none;
+    background-color: #aaa393;
+}
+
